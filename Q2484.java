@@ -14,9 +14,9 @@ public class Q2484 {
 			
 			for (int i = 0; i < p.length(); i++) {
 				for (int j = 0; j < p.length()-i; j++) {
-					if (j == 0) 
+					if (j == 0) // se for o primeiro
 						System.out.print(espaco); 
-					if (j == (p.length())-(i+1)) 
+					if (j == (p.length())-(i+1)) // se for o último
 						System.out.print(p.charAt(j));
 					else
 						System.out.print(p.charAt(j)+" "); 
